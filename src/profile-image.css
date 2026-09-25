@@ -1,0 +1,13 @@
+.hero-visual img {
+  display: block;
+  width: 80%;
+  height: 80%;
+  object-fit: cover;
+  object-position: center 18%;
+}
+
+@media (max-width: 800px) {
+  .hero-visual img {
+    object-position: center 16%;
+  }
+}
